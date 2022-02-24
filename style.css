@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-color: #237595;
+}
+a {
+  color: white;
+  text-decoration: unset !important;
+}
+header {
+  margin-top: 50px;
+}
+.campos-cadastrar,
+.campos-cadastrar > .editar-esquerda,
+.campos-cadastrar > .editar-direita {
+  display: flex;
+}
+.campos-cadastrar > .editar-esquerda,
+.campos-cadastrar > .editar-direita {
+  flex-direction: column;
+  align-items: last baseline;
+}
+.campos-cadastrar > .editar-esquerda {
+  margin-right: 20px;
+}
+.titulo {
+  font-size: 30px;
+  font-weight: bold;
+}
+.div-body {
+  width: 90%;
+}
+.div-usuarios {
+  display: flex;
+  flex-wrap: wrap;
+}
+.usuarios {
+  min-width: 150px;
+  border: 1px solid;
+  padding: 10px;
+  max-width: 250px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+  flex: 1 0 25%;
+}
+.usuarios > div {
+  border: 1px solid;
+  border-right: unset;
+  border-left: unset;
+  border-top: unset;
+}
+.link {
+  padding: 5px 0px;
+}
+.div-cadastro-usuario {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.body {
+  width: 90%;
+  text-align: center;
+}
+.campos-cadastro,
+.login,
+.campos-editar {
+  display: flex;
+  justify-content: center;
+}
+
+.campos-cadastro label {
+  font-size: 20px;
+}
+.campos-cadastro input {
+  margin-left: 15px;
+  border: unset;
+  margin-bottom: 5px;
+  text-indent: 5px;
+}
+.campos-editar .editar-esquerda,
+.campos-editar .editar-direta {
+  width: 20%;
+}
+.campos-editar .editar-esquerda > div,
+.campos-editar .editar-direta > div {
+  display: flex;
+  justify-content: end;
+}
+.login > #id,
+.div-cadastrar > form,
+.alinha-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.alinha-login {
+  align-items: end !important;
+}
+.alinha-login > label:nth-child(1),
+.editar-esquerda > div:nth-child(1),
+.editar-direita > div:nth-child(1) {
+  margin-bottom: 10px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.btn-cadastro {
+  margin-top: 30px;
+}
+.btn-cadastro > button {
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+  border: unset;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn-cadastro > button:hover {
+  background-color: #f2f2f2;
+}
